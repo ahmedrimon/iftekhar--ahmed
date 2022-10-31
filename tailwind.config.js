@@ -9,7 +9,9 @@ module.exports = {
       fontFamily: {
         'pt': ['PT Serif'],
         'antiga': ['Antiga'],
-        'montreal': ['PP Neue Montreal Book']
+        'montreal': ['PP Neue Montreal Book'],
+        'montreal__medium': ['PP Neue Montreal Medium'],
+
       },
     },
   },
