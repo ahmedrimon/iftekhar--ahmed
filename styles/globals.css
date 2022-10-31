@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-     font-family: 'PT Serif';
-     src: url('../fonts/PTSerif-Regular.ttf');
+     font-family: 'Antiga';
+     src: url('../fonts/antigaRegular.ttf');
 }
 
 @font-face {
-     font-family: 'Antiga';
-     src: url('../fonts/antigaRegular.ttf');
+     font-family: 'PT Serif';
+     src: url('../fonts/PTSerif-Regular.ttf');
 }
