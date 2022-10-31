@@ -8,6 +8,11 @@
 }
 
 @font-face {
+     font-family: 'PP Neue Montreal Book';
+     src: url('../fonts/PPNeueMontreal-Book.otf');
+}
+
+@font-face {
      font-family: 'PT Serif';
      src: url('../fonts/PTSerif-Regular.ttf');
 }

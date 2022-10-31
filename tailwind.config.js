@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'pt': ['PT Serif'],
-        'antiga': ['Antiga']
+        'antiga': ['Antiga'],
+        'montreal': ['PP Neue Montreal Book']
       },
     },
   },
