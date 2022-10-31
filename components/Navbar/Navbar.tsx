@@ -1,8 +1,22 @@
+// import { useLayoutEffect, useRef } from "react";
+// import gsap from "gsap";
 import Link from "next/link";
 
 export default function Navbar() {
+
+     // const navbar = useRef();
+
+     // useLayoutEffect(() => {
+
+     //      const rtx = gsap.context(() => {
+     //           gsap.to(".nav", { rotation: "+=360" });
+     //      }, navbar)
+
+     //      return () => rtx.revert()
+     // }, [])
+
      return <section>
-          <nav className="absolute top-[10%] left-[93%] rotate-90 font-montreal text-md font-normal">
+          <nav className="nav absolute top-[10%] left-[93%] rotate-90 font-montreal text-md font-normal cursor-pointer">
                <Link href="/work">WORK</Link>
                <Link href="/about" className="ml-4">ABOUT</Link>
           </nav>
