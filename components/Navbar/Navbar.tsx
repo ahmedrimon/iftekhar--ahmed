@@ -8,11 +8,11 @@ export default function Navbar() {
 
      // useLayoutEffect(() => {
 
-     //      const rtx = gsap.context(() => {
+     //      const ctx = gsap.context(() => {
      //           gsap.to(".nav", { rotation: "+=360" });
      //      }, navbar)
 
-     //      return () => rtx.revert()
+     //      return () => ctx.revert()
      // }, [])
 
      return <section>
