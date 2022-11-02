@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': { 'max': '425px' },
+    },
     extend: {
       fontFamily: {
         'pt': ['PT Serif'],
